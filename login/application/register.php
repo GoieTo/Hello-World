@@ -8,9 +8,9 @@ if ( empty($n)|| empty($p) ) {
     exit();
 } else {
 
-    if (!preg_match("/^[a-zA-Z ]*$/",$n)) {
+    /*if (!preg_match("/^[a-zA-Z ]*$/",$n)) {
         echo "用户名只允许字母和空格<br>";
-    }
+    }*/
 
     if (strlen($p) < 6) {
         echo "密码长度要大于6位";
